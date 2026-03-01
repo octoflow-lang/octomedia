@@ -37,6 +37,15 @@ Multimedia standard library for [OctoFlow](https://github.com/octoflow-lang/octo
 | `h264.flow` | H.264/AVC bitstream parser — NAL units, SPS/PPS, slice headers |
 | `timeline.flow` | Video timeline — tracks, clips, transitions, keyframes, frame blending |
 
+### Players
+| Module | Description |
+|--------|-------------|
+| `audio_player.flow` | PCM playback engine — play/pause/stop/seek, loop, speed, fade, region |
+| `image_viewer.flow` | Image viewer — zoom, pan, fit modes, rotation, gallery navigation |
+| `video_player.flow` | Frame-by-frame video player — timeline sync, A/V sync, frame stepping |
+| `playlist.flow` | Playlist management — add/remove, shuffle, repeat modes, next/prev |
+| `media_player.flow` | Unified player — combines audio + video + playlist, subtitles, mute |
+
 ### Demos
 | File | Description |
 |------|-------------|
@@ -44,7 +53,7 @@ Multimedia standard library for [OctoFlow](https://github.com/octoflow-lang/octo
 
 ## Tests
 
-Every module has a corresponding `test_*.flow` file. 18 test files, 150+ test cases.
+Every module has a corresponding `test_*.flow` file. 23 test files, 220+ test cases.
 
 ## Usage
 
