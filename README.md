@@ -46,6 +46,13 @@ Multimedia standard library for [OctoFlow](https://github.com/octoflow-lang/octo
 | `playlist.flow` | Playlist management — add/remove, shuffle, repeat modes, next/prev |
 | `media_player.flow` | Unified player — combines audio + video + playlist, subtitles, mute |
 
+### GUI Editing Tools
+| Module | Description |
+|--------|-------------|
+| `audio_editor.flow` | Waveform editor — selection, copy/cut/paste, gain/fade/reverse/normalize, undo, zoom, markers, effects chain |
+| `image_editor.flow` | Layer-based image editor — brush/eraser/fill/eyedrop, layers with opacity/blend modes, selection, zoom/pan, flatten |
+| `video_editor.flow` | Timeline editor — tracks, clip management (add/remove/move/trim/split), snap modes, in/out points, preview transport, markers, render queue, undo |
+
 ### Demos
 | File | Description |
 |------|-------------|
@@ -53,7 +60,7 @@ Multimedia standard library for [OctoFlow](https://github.com/octoflow-lang/octo
 
 ## Tests
 
-Every module has a corresponding `test_*.flow` file. 23 test files, 220+ test cases.
+Every module has a corresponding `test_*.flow` file. 26 test files, 280+ test cases.
 
 ## Usage
 
